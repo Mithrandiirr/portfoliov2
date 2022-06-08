@@ -1,9 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: Futura Bold;
+  src: url(../assets/fonts/futuraBold.ttf);
+}
+@font-face {
+  font-family: Futura Medium;
+  src: url(../assets/fonts/futuraMedium.ttf);
+}
+@font-face {
+  font-family: Futura Light;
+  src: url(../assets/fonts/futuraLight.ttf);
+}
+@font-face {
+  font-family: Futura Italic;
+  src: url(../assets/fonts/futuraLightItalic.ttf);
+}
+::selection{
+  background-color: #d0e015;
+  color: #17170E;
+}
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Futura Medium, Futura Light , Futura Italic , Futura Bold;
+    background-color: #17170E;
+    color: white;
 }
 
 a {
@@ -13,4 +37,20 @@ a {
 
 * {
   box-sizing: border-box;
+}
+.jamstack::before{
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background-color: #d0e015;
+  left: -35px;
+}
+.image img {
+  user-select: none;
+}
+.back {
+  background-image: url(../assets/background.svg);
+  background-size: 1200px 600px;
+  background-position: 50%;
 }
