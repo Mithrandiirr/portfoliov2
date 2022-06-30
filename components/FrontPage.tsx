@@ -1,6 +1,6 @@
 import ThemeNavbar from './ThemeNavbar'
 import Image from 'next/image'
-import Selfie from '../assets/avatar.png'
+import Selfie from '../assets/imagee.png'
 import { UpDown } from "./Animations"
 
 const FrontPage = () => {
@@ -12,16 +12,13 @@ const FrontPage = () => {
   }
   return (
     <>
-        <ThemeNavbar />
-        <div className='text-center mt-[3rem] back transform-gpu'>
+        {/* <ThemeNavbar /> */}
+        <div className='text-center mt-[8rem] back transform-gpu'>
           <h1 className='text-[90px] text-medium leading-initial '>
             El Yaakoubi <span className='mohammed font-bold uppercase  text-[40px] text-[#D0E015]'>Mohammed .</span>
           </h1>
           <div className='flex justify-center'>
-          <div className='flex flex-row w-[785px]  items-center mt-[2rem]'>
-            <div className='mr-[7rem] image'>
-              <Image src={Selfie} width={210} height={210}  alt='Selfie' />
-            </div>
+          <div className='flex flex-row w-[785px]  items-center mt-[2rem] ml-[6rem]'>
             <div className='text-left flex-1 relative jamstack  leading-[30px] mt-[-1rem]'>
            <span className='text-[20px]'>JAMStack & Fullstack developer experienced in the modern web , SEO , speed optimization and UI/UX.
 I have gained the trust and the satisfaction of many clients making their end projects during my freelancing journey.
