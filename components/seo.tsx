@@ -24,6 +24,7 @@ const Seo = ({ seo }) => {
           <title>{fullSeo.metaTitle}</title>
           <meta property="og:title" content={fullSeo.metaTitle} />
           <meta name="twitter:title" content={fullSeo.metaTitle} />
+       
         </>
       )}
       {fullSeo.metaDescription && (

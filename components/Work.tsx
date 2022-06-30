@@ -17,7 +17,7 @@ function Work() {
   return (
     <div className="mt-[6rem] mx-[5rem]">
     <h1 className="text-[50px] ">Previous Work<span className="text-[#D0E015]">.</span></h1>
-    <div className="grid grid-cols-2 justify-items-center mt-8 gap-8">
+    <div className="grid grid-div grid-cols-2 justify-items-center mt-8 gap-8">
     <Link href='https://alsabab.netlify.app/' target='_blank'>
       <a className="link">
       <Image src={AlSabab} style={{width:'100%'}} alt='AlSabab' className="image" />
