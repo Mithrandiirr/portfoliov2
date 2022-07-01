@@ -21,7 +21,7 @@ I have gained the trust and the satisfaction of many clients making their end pr
 <br/></span><span className='font-light text-[16px]'>“Writing clean and reusable code leads to better end product”</span>
             </div>
             {/* <div className=' relative'> */}
-          <div className='flex flex-row mt-2 ml-[4rem] justify-center relative  gap-[3rem] '>
+          <div className='flex flex-row mt-2 w-full  justify-center relative  gap-[3rem] '>
        <Link href='https://github.com/Mithrandiirr' target='_blank'>
        <a>
        <svg className='cursor-pointer' width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
