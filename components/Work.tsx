@@ -100,7 +100,7 @@ function Work() {
     <Image loading="eager" src={Portoflio}  alt='Portfolio' className="image" />
       <div className="px-[1rem] mt-[-8px] py-[1rem] bg-[#0F0F08] rounded-b-[10px]">
         <h1 className="text-[30px]">My Portfolio</h1>
-        <p className="text-[24px] font-light text-[#919187]">An Ecommerce platform of both Men and Women clothes/accessories and more...</p>
+        <p className="text-[24px] font-light text-[#919187]">My personal portfolio , which describs as mentioned my skills ,previous work and testimonials.</p>
         <div className="flex flex-row items-center justify-center gap-4">
         <Image src={Gatsby} />
           <Image src={Netlify} />
