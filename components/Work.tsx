@@ -20,7 +20,7 @@ function Work() {
     <div className="grid grid-div grid-cols-2 justify-items-center mt-8 gap-8">
     <Link href='https://alsabab.netlify.app/' target='_blank'>
       <a className="link">
-      <Image src={AlSabab} style={{width:'100%'}} alt='AlSabab' className="image" />
+      <Image loading="eager" src={AlSabab} style={{width:'100%'}} alt='AlSabab' className="image" />
       <div className="px-[1rem] mt-[-8px] py-[1rem] bg-[#0F0F08] rounded-b-[10px]">
         <h1 className="text-[30px]">Al Sabab</h1>
         <p className="text-[24px] font-light text-[#919187]">Daily news blog website ,fully-responsive and mobile friendly. </p>
@@ -42,7 +42,7 @@ function Work() {
     
     <Link href='https://zinee.netlify.app/' target='_blank'>
       <a className="link">
-      <Image src={Zine} style={{height:'578px'}} alt='Zine' className="image" />
+      <Image loading="eager" src={Zine} style={{height:'578px'}} alt='Zine' className="image" />
       <div className="px-[1rem] mt-[-8px] py-[1rem] bg-[#0F0F08] rounded-b-[10px]">
         <h1 className="text-[30px]">Zine</h1>
         <p className="text-[24px] font-light text-[#919187]">Daily news blog website ,fully-responsive and mobile friendly.</p>
@@ -61,7 +61,7 @@ function Work() {
       </Link>
     <Link href='https://luminee.netlify.app/' target='_blank'>
     <a className="link">
-    <Image src={Lumine}  alt='Lumine' className="image" />
+    <Image loading="eager" src={Lumine}  alt='Lumine' className="image" />
       <div className="px-[1rem] mt-[-8px] py-[1rem] bg-[#0F0F08] rounded-b-[10px]">
         <h1 className="text-[30px]">LUMINE</h1>
         <p className="text-[24px] font-light text-[#919187]">An Ecommerce platform of both Men and Women clothes/accessories and more...</p>
@@ -80,7 +80,7 @@ function Work() {
     </Link>
     <Link href='https://main--startling-clafoutis-4cf004.netlify.app/'  target='_blank'>
       <a className="link">
-      <Image src={Project1} alt='Project'  style={{width:'580px'}} className="image" />
+      <Image loading="eager" src={Project1} alt='Project'  style={{width:'580px'}} className="image" />
       <div className="px-[1rem] mt-[-8px] py-[1rem] bg-[#0F0F08] rounded-b-[10px]">
         <h1 className="text-[30px]">0xInsights</h1>
         <p className="text-[24px] font-light text-[#919187]">A static saas landing page concerning data and other sources.</p>
@@ -97,7 +97,7 @@ function Work() {
     </Link>
     <Link href='https://luminee.netlify.app/' target='_blank'>
     <a className="link">
-    <Image src={Portoflio}  alt='Portfolio' className="image" />
+    <Image loading="eager" src={Portoflio}  alt='Portfolio' className="image" />
       <div className="px-[1rem] mt-[-8px] py-[1rem] bg-[#0F0F08] rounded-b-[10px]">
         <h1 className="text-[30px]">My Portfolio</h1>
         <p className="text-[24px] font-light text-[#919187]">An Ecommerce platform of both Men and Women clothes/accessories and more...</p>
