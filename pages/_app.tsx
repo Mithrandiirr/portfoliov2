@@ -7,6 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
     <Head>
       <meta name="viewport" content="viewport-fit=cover" />
+      <link rel="shortcut icon" href="/circle.png" />
     </Head>
     <Component {...pageProps} />
   </>

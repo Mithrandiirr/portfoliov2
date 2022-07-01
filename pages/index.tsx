@@ -33,11 +33,12 @@ const Home: NextPage = () => {
         site: '@site',
         cardType: 'summary_large_image',
       }}
+     
     />
      <Layout>
      <Head>
-     
        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+  
      </Head>
      <section className='frontPage'>
       <FrontPage />
