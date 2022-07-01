@@ -240,3 +240,7 @@ img {
     font-size: 15px;
    }
   }
+.social svg:hover path{
+fill: white;
+transition: .3s all ease;
+}
