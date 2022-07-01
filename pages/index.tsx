@@ -6,15 +6,37 @@ import Layout from '../components/Layout'
 import Skills from '../components/Skills'
 import Work from '../components/Work'
 import EmblaCarousel from '../components/Swiper' 
-import Seo from "../components/seo";
 import InTouch from '../components/inTouch'
 import Carousel from '../components/Carousel'
 import Footer from '../components/Footer'
+import { NextSeo } from 'next-seo'
+
 const Home: NextPage = () => {
   return (
-   <Layout>
+    <>
+     <NextSeo
+      title="El Yaakoubi Mohammed | Frontend - JAMStack Developer"
+      description="Mohammed El Yaakoubi's Portfolio and Curriculum Vitae"
+      openGraph={{
+        images: [
+          {
+            url: 'https://i.ibb.co/DgKJY88/Screenshot-3.png',
+            width: 800,
+            height: 600,
+            alt: 'Og Image Alt',
+            type: 'image/jpeg',
+          },
+        ]
+      }}
+      twitter={{
+        handle: '@handle',
+        site: '@site',
+        cardType: 'summary_large_image',
+      }}
+    />
+     <Layout>
      <Head>
-       <title>El Yaakoubi Mohammed - Frontend Developer</title>
+     
        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
      </Head>
      <section className='frontPage'>
@@ -34,6 +56,8 @@ const Home: NextPage = () => {
      </section>
      <Footer />
    </Layout>
+    </>
+  
   )
 }
 

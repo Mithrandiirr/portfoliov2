@@ -23,7 +23,8 @@
 }
 html,
 body {
-
+  color-scheme: dark;
+  scroll-behavior: smooth;
   padding: 0;
   margin: 0;
   font-family: Futura Medium, Futura Light , Futura Italic , Futura Bold;

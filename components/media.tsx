@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
+
 const FlexBox = styled.div`
     display: flex;
     flex-direction: column;

@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { PrevButton, NextButton } from "./swiperButton";
 import useEmblaCarousel from "embla-carousel-react";
-import Media from "./media";
 import styled from '@emotion/styled'
+
 const FlexBox = styled.div`
     display: flex;
     flex-direction: column;

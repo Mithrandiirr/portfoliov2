@@ -3,7 +3,6 @@ import Project1 from '../assets/0xinsight.jpg'
 import AlSabab from '../assets/alsabab.jpg'
 import Lumine from '../assets/lm.jpg'
 import Zine from '../assets/zine.jpg'
-import Men from '../assets/men_lumne.png'
 import Tailwind from '../assets/tailwind.svg'
 import Next from '../assets/next.svg'
 import Gatsby from '../assets/gatsby.svg'
@@ -13,6 +12,7 @@ import Shopify from '../assets/shopify.svg'
 import sc from '../assets/prismic.svg'
 import Link from "next/link"
 import Portoflio from  '../assets/portfolio.png'
+
 function Work() {
   return (
     <div className="mt-[6rem] mx-[5rem]">

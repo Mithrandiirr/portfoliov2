@@ -4,12 +4,7 @@ import Selfie from '../assets/imagee.png'
 import { UpDown } from "./Animations"
 
 const FrontPage = () => {
-  const Cursor = () =>
-  {
-     document.querySelector('#skills').scrollIntoView({ 
-         behavior: 'smooth' 
-       });
-  }
+
   return (
     <>
         {/* <ThemeNavbar /> */}
@@ -29,9 +24,12 @@ I have gained the trust and the satisfaction of many clients making their end pr
         </div>
         <div className='flex justify-center relative bottom-[-90px] cursor' >
         <UpDown>
-        <svg onClick={Cursor} className='cursor-pointer' width="48" height="36" viewBox="0 0 57 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <a href='#skills'>
+          <svg  className='cursor-pointer' width="48" height="36" viewBox="0 0 57 36" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M2 1L25.2377 32.3871C27.2764 35.1407 31.4178 35.0746 33.3676 32.2573L55 1" stroke="#D0E015" strokeWidth="3"/>
         </svg>
+          </a>
+       
           </UpDown>
         </div>
     </>
