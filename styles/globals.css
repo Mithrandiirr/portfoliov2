@@ -244,3 +244,8 @@ img {
 fill: white;
 transition: .3s all ease;
 }
+@media screen and (max-width : 716px){
+  .svg {
+    display: none;
+  }
+}
