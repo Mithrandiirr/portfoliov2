@@ -1,8 +1,8 @@
 function Skills() {
   return (
-    <div className="mt-[20rem] mx-[5rem]">
+    <div className="mt-[20rem] media mx-[5rem]">
         <h1 className="text-[50px] ">My Skills<span className="text-[#D0E015]">.</span></h1>
-        <p className="text-[25px] paragraph font-light">I mainly work with Headless CMS such as Wordpress/Shopify/Contentful/Strapi/Ghost . I write clean , reusable code in my projects to achieve better results . I am really dedicated , hardworker and web enthusiastic .</p>
+        <p className="text-[25px] paragraph font-light">I mainly work with Headless CMS . I write clean , reusable code in my projects to achieve better results . I am really dedicated , hardworker and web enthusiastic .</p>
         <div className="mt-8">
             <div className="bullet flex flex-wrap flex-row gap-[10rem] font-light text-[22px] mx-[2rem] relative leading-[40px] mt-4">
                 <ul>
