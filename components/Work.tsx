@@ -19,7 +19,7 @@ function Work() {
     <div className="mt-[6rem] mx-[5rem]">
     <h1 className="text-[50px] ">Previous Work<span className="text-[#D0E015]">.</span></h1>
     <div className="grid grid-div grid-cols-2 justify-items-center mt-8 gap-8">
-    <Link href='https://alsabab.netlify.app/' target='_blank'>
+    <Link href='https://shukran-demo.netlify.app/' target='_blank'>
       <a className="link">
       <Image loading="eager" src={Shukran} style={{width:'100%'}} alt='AlSabab' className="image" />
       <div className="px-[1rem] mt-[-8px] py-[1rem] bg-[#0F0F08] rounded-b-[10px]">
