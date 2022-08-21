@@ -12,12 +12,32 @@ import Shopify from '../assets/shopify.svg'
 import sc from '../assets/prismic.svg'
 import Link from "next/link"
 import Portoflio from  '../assets/portfolio.png'
+import Shukran from  '../assets/shukran.jpg'
 
 function Work() {
   return (
     <div className="mt-[6rem] mx-[5rem]">
     <h1 className="text-[50px] ">Previous Work<span className="text-[#D0E015]">.</span></h1>
     <div className="grid grid-div grid-cols-2 justify-items-center mt-8 gap-8">
+    <Link href='https://alsabab.netlify.app/' target='_blank'>
+      <a className="link">
+      <Image loading="eager" src={Shukran} style={{width:'100%'}} alt='AlSabab' className="image" />
+      <div className="px-[1rem] mt-[-8px] py-[1rem] bg-[#0F0F08] rounded-b-[10px]">
+        <h1 className="text-[30px]">Shukran</h1>
+        <p className="text-[24px] font-light text-[#919187]">News Blog website for halal food checker.</p>
+        <div className="flex flex-row items-center justify-center gap-4">
+          <Image src={Gatsby} />
+          <Image src={Netlify} />
+          <Image src={Tailwind} />
+          <Image src={sc} />
+          <Image src={GraphQL} /> 
+        </div>
+        <div>
+          </div>
+      </div>
+      </a>
+    
+    </Link>
     <Link href='https://alsabab.netlify.app/' target='_blank'>
       <a className="link">
       <Image loading="eager" src={AlSabab} style={{width:'100%'}} alt='AlSabab' className="image" />
@@ -29,9 +49,7 @@ function Work() {
           <Image src={Netlify} />
           <Image src={Tailwind} />
           <Image src={sc} />
-          <Image src={GraphQL} />
-          
-         
+          <Image src={GraphQL} /> 
         </div>
         <div>
           </div>
