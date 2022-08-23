@@ -24,7 +24,7 @@ function Work() {
       <Image loading="eager" src={Shukran} style={{width:'100%'}} alt='AlSabab' className="image" />
       <div className="px-[1rem] mt-[-8px] py-[1rem] bg-[#0F0F08] rounded-b-[10px]">
         <h1 className="text-[30px]">Shukran</h1>
-        <p className="text-[24px] font-light text-[#919187]">News Blog website for halal food checker.</p>
+        <p className="text-[24px] font-light text-[#919187]">News Blog website for halal food checker, multilanguage site (French/English).</p>
         <div className="flex flex-row items-center justify-center gap-4">
           <Image src={Gatsby} />
           <Image src={Netlify} />
